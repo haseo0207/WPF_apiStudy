@@ -5,7 +5,7 @@ namespace ApiStudy.Model
     public class HeaderModel
     {
         [JsonPropertyName("resultCode")]
-        public int ResultCode { get; set; }
+        public string ResultCode { get; set; } = string.Empty;
 
         [JsonPropertyName("resultMsg")]
         public string ResultMsg { get; set; } = string.Empty;
